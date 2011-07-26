@@ -1,0 +1,285 @@
+/*
+  760 Grid System ~ Core CSS.
+  Licensed under GPL and MIT.
+*/
+
+/* `Containers
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 760px;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+  margin-left: 0 !important;
+}
+
+.omega {
+  margin-right: 0 !important;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 .grid-1 {
+  width: 45px;
+}
+
+.container-12 .grid-2 {
+  width: 110px;
+}
+
+.container-12 .grid-3 {
+  width: 175px;
+}
+
+.container-12 .grid-4 {
+  width: 240px;
+}
+
+.container-12 .grid-5 {
+  width: 305px;
+}
+
+.container-12 .grid-6 {
+  width: 370px;
+}
+
+.container-12 .grid-7 {
+  width: 435px;
+}
+
+.container-12 .grid-8 {
+  width: 500px;
+}
+
+.container-12 .grid-9 {
+  width: 565px;
+}
+
+.container-12 .grid-10 {
+  width: 630px;
+}
+
+.container-12 .grid-11 {
+  width: 695px;
+}
+
+.container-12 .grid-12 {
+  width: 760px;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 .prefix-1 {
+  padding-left: 65px;
+}
+
+.container-12 .prefix-2 {
+  padding-left: 130px;
+}
+
+.container-12 .prefix-3 {
+  padding-left: 195px;
+}
+
+.container-12 .prefix-4 {
+  padding-left: 260px;
+}
+
+.container-12 .prefix-5 {
+  padding-left: 325px;
+}
+
+.container-12 .prefix-6 {
+  padding-left: 390px;
+}
+
+.container-12 .prefix-7 {
+  padding-left: 455px;
+}
+
+.container-12 .prefix-8 {
+  padding-left: 520px;
+}
+
+.container-12 .prefix-9 {
+  padding-left: 585px;
+}
+
+.container-12 .prefix-10 {
+  padding-left: 650px;
+}
+
+.container-12 .prefix-11 {
+  padding-left: 715px;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 .suffix-1 {
+  padding-right: 65px;
+}
+
+.container-12 .suffix-2 {
+  padding-right: 130px;
+}
+
+.container-12 .suffix-3 {
+  padding-right: 195px;
+}
+
+.container-12 .suffix-4 {
+  padding-right: 260px;
+}
+
+.container-12 .suffix-5 {
+  padding-right: 325px;
+}
+
+.container-12 .suffix-6 {
+  padding-right: 390px;
+}
+
+.container-12 .suffix-7 {
+  padding-right: 455px;
+}
+
+.container-12 .suffix-8 {
+  padding-right: 520px;
+}
+
+.container-12 .suffix-9 {
+  padding-right: 585px;
+}
+
+.container-12 .suffix-10 {
+  padding-right: 650px;
+}
+
+.container-12 .suffix-11 {
+  padding-right: 715px;
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 .push-1 {
+  left: 65px;
+}
+
+.container-12 .push-2 {
+  left: 130px;
+}
+
+.container-12 .push-3 {
+  left: 195px;
+}
+
+.container-12 .push-4 {
+  left: 260px;
+}
+
+.container-12 .push-5 {
+  left: 325px;
+}
+
+.container-12 .push-6 {
+  left: 390px;
+}
+
+.container-12 .push-7 {
+  left: 455px;
+}
+
+.container-12 .push-8 {
+  left: 520px;
+}
+
+.container-12 .push-9 {
+  left: 585px;
+}
+
+.container-12 .push-10 {
+  left: 650px;
+}
+
+.container-12 .push-11 {
+  left: 715px;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container-12 .pull-1 {
+  left: -65px;
+}
+
+.container-12 .pull-2 {
+  left: -130px;
+}
+
+.container-12 .pull-3 {
+  left: -195px;
+}
+
+.container-12 .pull-4 {
+  left: -260px;
+}
+
+.container-12 .pull-5 {
+  left: -325px;
+}
+
+.container-12 .pull-6 {
+  left: -390px;
+}
+
+.container-12 .pull-7 {
+  left: -455px;
+}
+
+.container-12 .pull-8 {
+  left: -520px;
+}
+
+.container-12 .pull-9 {
+  left: -585px;
+}
+
+.container-12 .pull-10 {
+  left: -650px;
+}
+
+.container-12 .pull-11 {
+  left: -715px;
+}
